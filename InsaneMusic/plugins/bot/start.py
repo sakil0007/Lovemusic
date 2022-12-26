@@ -282,6 +282,12 @@ async def start(client: Client, message: Message):
         caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ʜᴇʟʟᴏ, Insane ɪs ᴡᴏʀᴋɪɴɢ ᴀɴᴅ ғᴜɴᴄᴛɪᴏɴɪɴɢ ᴘʀᴏᴘᴇʀʟʏ\n✪ ᴛʜᴀɴᴋs ᴛᴏ ʏᴜᴋᴋɪ ᴛᴇᴀᴍ 🌼 ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴏᴡɴᴇʀ    : [Massom](https://t.me/always_hungry365)\n┣★ ᴜᴘᴅᴀᴛᴇs › : [Insane ʜᴇʟᴘ](https://t.me/Insane_Help365)┓\n┣★ ʀᴇᴘᴏ › : [Insane ʀᴇᴘᴏ](https://github.com/TheTeamInsane/InsaneMusic)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/always_hungry365) ᴍᴀᴋᴇ sᴜʀᴇ ᴛᴏ sᴛᴀʀ ᴏᴜʀ ᴘʀᴏᴊᴇᴄᴛ ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━
 """,
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🌼 Insane ᴄʜᴀᴛ 💮", url=f"https://t.me/Dosto_ki_Mehfil786")]]
+            [
+                [
+                    InlineKeyboardButton(
+                        "🌼 Insane ᴄʜᴀᴛ 💮", url=f"https://t.me/Dosto_ki_Mehfil786"
+                    )
+                ]
+            ]
         ),
     )

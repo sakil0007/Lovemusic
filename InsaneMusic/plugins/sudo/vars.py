@@ -3,7 +3,6 @@
 # All rights reserved. © Alisha © Insane © Yukki
 
 
-
 import asyncio
 
 from pyrogram import filters
@@ -15,14 +14,13 @@ from InsaneMusic.misc import SUDOERS
 from InsaneMusic.utils.database.memorydatabase import get_video_limit
 from InsaneMusic.utils.formatters import convert_bytes
 from config import OWNER_ID
+
 VARS_COMMAND = get_command("VARS_COMMAND")
 
 
 @app.on_message(filters.command(VARS_COMMAND) & filters.user(OWNER_ID))
 async def varsFunc(client, message):
-    mystic = await message.reply_text(
-        "ᴩʟᴇᴀsᴇ ᴡᴀɪᴛ... ɢᴇᴛᴛɪɴɢ ʏᴏᴜʀ ᴄᴏɴғɪɢ ᴠᴀʀɪᴀʙʟᴇs..."
-    )
+    mystic = await message.reply_text("ᴩʟᴇᴀsᴇ ᴡᴀɪᴛ... ɢᴇᴛᴛɪɴɢ ʏᴏᴜʀ ᴄᴏɴғɪɢ ᴠᴀʀɪᴀʙʟᴇs...")
     v_limit = await get_video_limit()
     bot_name = config.MUSIC_BOT_NAME
     up_r = f"[ʀᴇᴩᴏ]({config.UPSTREAM_REPO})"
@@ -73,10 +71,7 @@ async def varsFunc(client, message):
         token = "ɴᴏ"
     else:
         token = "ʏᴇs"
-    if (
-        not config.SPOTIFY_CLIENT_ID
-        and not config.SPOTIFY_CLIENT_SECRET
-    ):
+    if not config.SPOTIFY_CLIENT_ID and not config.SPOTIFY_CLIENT_SECRET:
         sotify = "ɴᴏ"
     else:
         sotify = "ʏᴇs"
