@@ -15,6 +15,7 @@ from pyrogram.errors import FloodWait
 from pyrogram.raw import types
 
 import config
+from config import OWNER_ID
 from config import adminlist, chatstats, clean, userstats
 from strings import get_command
 from InsaneMusic import app, userbot
@@ -71,7 +72,7 @@ async def clean_mode(client, update, users, chats):
     await set_queries(1)
 
 
-@app.on_message(filters.command(BROADCAST_COMMAND) & SUDOERS)
+@app.on_message(filters.command(BROADCAST_COMMAND) & filters.user(OWNER_ID))
 @language
 async def braodcast_message(client, message, _):
     global IS_BROADCASTING
@@ -214,11 +215,15 @@ async def auto_clean():
                         spot = spot["spot"]
                         next_spot = spot + 1
                         new_spot = {"spot": next_spot, "title": title}
-                        await update_particular_top(chat_id, vidid, new_spot)
+                        await update_particular_top(
+                            chat_id, vidid, new_spot
+                        )
                     else:
                         next_spot = 1
                         new_spot = {"spot": next_spot, "title": title}
-                        await update_particular_top(chat_id, vidid, new_spot)
+                        await update_particular_top(
+                            chat_id, vidid, new_spot
+                        )
             for user_id in userstats:
                 for dic in userstats[user_id]:
                     vidid = dic["vidid"]
@@ -229,11 +234,15 @@ async def auto_clean():
                         spot = spot["spot"]
                         next_spot = spot + 1
                         new_spot = {"spot": next_spot, "title": title}
-                        await update_user_top(user_id, vidid, new_spot)
+                        await update_user_top(
+                            user_id, vidid, new_spot
+                        )
                     else:
                         next_spot = 1
                         new_spot = {"spot": next_spot, "title": title}
-                        await update_user_top(user_id, vidid, new_spot)
+                        await update_user_top(
+                            user_id, vidid, new_spot
+                        )
         except:
             continue
         try:
@@ -243,7 +252,9 @@ async def auto_clean():
                 for x in clean[chat_id]:
                     if datetime.now() > x["timer_after"]:
                         try:
-                            await app.delete_messages(chat_id, x["msg_id"])
+                            await app.delete_messages(
+                                chat_id, x["msg_id"]
+                            )
                         except FloodWait as e:
                             await asyncio.sleep(e.x)
                         except:
