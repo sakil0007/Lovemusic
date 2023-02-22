@@ -51,7 +51,7 @@ async def init():
     await userbot.start()
     await Insane.start()
     try:
-        await Insane.stream_call("https://telegra.ph/file/e5938d9ca8fb7c2724f80.jpg")
+        await Insane.stream_call("https://telegra.ph//file/90412f6f3e1037fb0a1c4.jpg")
     except NoActiveGroupCall:
         LOGGER("InsaneMusic").error(
             "[ERROR] - \n\nTurn on group voice chat and don't put it off otherwise I'll stop working thanks."
