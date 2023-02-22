@@ -169,7 +169,7 @@ async def gen_thumb(videoid):
             # description
             views = f"Views : {views}"
             duration = f"Duration : {duration} Mins"
-            channel = f"Channel : @Insane_Help365"
+            channel = f"Channel : @Secret_x_chatting"
 
             image4.text((670, 450), text=views, fill="white", font=font4, align="left")
             image4.text(
@@ -309,7 +309,7 @@ async def gen_qthumb(videoid):
             # description
             views = f"Views : {views}"
             duration = f"Duration : {duration} Mins"
-            channel = f"Channel : Insane_Help365"
+            channel = f"Channel : Secret_x_chatting"
 
             image4.text((670, 450), text=views, fill="white", font=font4, align="left")
             image4.text(
