@@ -41,7 +41,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TheTeamInsane/InsaneMusic",
+    "https://github.com/sakil0007/Sakilmusicbot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
@@ -103,7 +103,7 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/e5938d9ca8fb7c2724f80.jpg"
+    "START_IMG_URL", "https://telegra.ph//file/90412f6f3e1037fb0a1c4.jpg"
 )
 
 PING_IMG_URL = getenv(
