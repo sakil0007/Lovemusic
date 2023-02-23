@@ -39,7 +39,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text=" ᴏᴡɴᴇʀ 💞", url=f"https://t.me/always_hungry365"),
+            InlineKeyboardButton(text=" ᴏᴡɴᴇʀ 💞", url=f"https://t.me/its_Me_SakiL"),
         ],
         [
             InlineKeyboardButton(
@@ -47,13 +47,13 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="Insane ᴄʜᴀᴛ 💌", url=f"https://t.me/Dosto_ki_Mehfil786"
+                text="sᴀᴋɪʟ ᴄʜᴀᴛ 💌", url=f"https://t.me/Secret_x_chatting"
             ),
         ],
         [
             InlineKeyboardButton(
-                text=f"☀ Insane ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ☀",
-                url=f"https://t.me/Insane_Management_Robot",
+                text=f"☀ ᴍᴀɪɴᴛᴀɪɴᴇʀ ☀",
+                url=f"https://t.me/its_Coder_xD",
             )
         ],
     ]
@@ -74,7 +74,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="ᴏᴡɴᴇʀ 💞", url=f"https://t.me/always_hungry365"),
+            InlineKeyboardButton(text="ᴏᴡɴᴇʀ 💞", url=f"https://t.me/its_Me_SakiL"),
         ],
         [
             InlineKeyboardButton(
@@ -82,7 +82,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="Insane ᴄʜᴀᴛ 💌", url=f"https://t.me/Dosto_ki_Mehfil786"
+                text="sᴀᴋɪʟ ᴄʜᴀᴛ 💌", url=f"https://t.me/Secret_x_chatting"
             ),
         ],
     ]
@@ -99,7 +99,7 @@ def stream_markup(_, videoid, chat_id):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="ᴏᴡɴᴇʀ 💞", url=f"https://t.me/always_hungry365"),
+            InlineKeyboardButton(text="ᴏᴡɴᴇʀ 💞", url=f"ᴏᴡɴᴇʀ 💞", url=f"https://t.me/its_Me_SakiL"),
         ],
         [
             InlineKeyboardButton(
@@ -107,7 +107,7 @@ def stream_markup(_, videoid, chat_id):
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="Insane ᴄʜᴀᴛ 💌", url=f"https://t.me/Dosto_ki_Mehfil786"
+                text="sᴀᴋɪʟ ᴄʜᴀᴛ 💌", url=f"https://t.me/Secret_x_chatting"
             ),
         ],
     ]
