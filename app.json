@@ -1,5 +1,5 @@
 {
-    "name": "Insane Music Bot",
+    "name": "Sakil Music Bot",
     "description": "Insane Is A Telegram Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://telegra.ph/file/e5938d9ca8fb7c2724f80.jpg",
     "keywords": [
@@ -40,7 +40,7 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
-        "value": "乛𝙄𝙉𝙎𝘼𝙉𝙀🕊⃝🦋⁪⁬𝙈𝙐𝙎𝙄𝘾⁪⁬",
+        "value": "𓆩〭〬×⃪⃕͜💕⸽⃟⃪ 🌈⃝⃚⃧⃡🦋𝗦ακιℓ❤️⃮⃟⃝𝗠υѕιϲ─⃜⃝🥀𓆪👀",
         "required": true
       },
       "OWNER_ID": {
@@ -80,7 +80,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/TheTeamInsane/InsaneMusic",
+        "value": "https://github.com/sakil0007/Mysong",
         "required": true
       },
       "UPSTREAM_BRANCH": {
