@@ -1,6 +1,6 @@
 <h1 align="center"><b>❤️ Sakil MUSIC BOT ❤️</b></h1>
 
-<h4 align="center">Insane A Powerful, Smart And Simple Bot To Play Audio And Video Song In Telegram<br> ... Written With Python and Telethon...</h4>
+<h4 align="center">Sakil Music A Powerful, Smart And Simple Bot To Play Audio And Video Song In Telegram<br> ... Written With Python and Telethon...</h4>
 
 <p align="center"><a href="https://t.me/always_hungry365"><img src="https://telegra.ph//file/c1602a8975a50380b7b0f.jpg" width="400"></a></p>
 
@@ -12,7 +12,7 @@
 <a href="https://t.me/VipFreinds"><img src="https://img.shields.io/badge/Join-Subscribe%20Support-blue.svg?style=for-the-badge&logo=YouTube"></a>
 
 
-## Features Of Insane And Commands ❤️
+## Features Of Sakil Music Bot And Commands ❤️
 
 <details>
 <summary><b>ғᴇᴀᴛᴜʀᴇs</b></summary>
